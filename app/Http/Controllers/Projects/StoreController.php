@@ -22,10 +22,6 @@ class StoreController extends Controller
         PushRepositoryContract $push,
     ): RedirectResponse
     {
-        if ($request->user()->cannot('create', Project::class)) {
-            return redirect()->back()->withErrors('Please upgrade to create more projects!');
-        }
-
         if ($request->user()->cannot('see', $kit)) {
             abort(404);
         }
