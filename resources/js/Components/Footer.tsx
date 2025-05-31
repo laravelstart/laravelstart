@@ -1,5 +1,5 @@
 import { Snippet } from '@heroui/react';
-import { FaDiscord, FaTwitter } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaTwitter } from 'react-icons/fa';
 import logo from '../../images/logo_icon.webp';
 
 const Footer = () => {
@@ -24,12 +24,20 @@ const Footer = () => {
                         </p>
                         <div className="flex space-x-4">
                             <a
-                                href="https://x.com/webpnk_dev"
+                                href="https://x.com/webpnkdotdev"
                                 className="text-gray-500 transition hover:text-gray-900"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 <FaTwitter size={24} />
+                            </a>
+                            <a
+                                href="https://github.com/laravelstart/laravelstart"
+                                className="text-gray-500 transition hover:text-gray-900"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FaGithub size={24} />
                             </a>
                             <a
                                 href="https://discord.gg/XdUbDdkU"
@@ -61,7 +69,7 @@ const Footer = () => {
                                         pre: 'text-default-800 font-sans text-medium',
                                     }}
                                 >
-                                    support@laravelstart.app
+                                    webpnk.dev@gmail.com
                                 </Snippet>
                             </li>
                             <li>
@@ -77,7 +85,7 @@ const Footer = () => {
                                         pre: 'text-default-800 font-sans text-medium',
                                     }}
                                 >
-                                    dmytro@laravelstart.app
+                                    webpnk.dev@gmail.com
                                 </Snippet>
                             </li>
                         </ul>

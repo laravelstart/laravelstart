@@ -14,7 +14,7 @@ class PrivacyPolicyPageController extends Controller
     {
         PageMeta::setTitle('Privacy Policy');
 
-        $supportEmail = 'support@laravelstart.app';
+        $supportEmail = 'webpnk.dev@gmail.com';
         $effectiveDate = Carbon::parse('10.03.2025');
 
         return view('privacy-policy', [

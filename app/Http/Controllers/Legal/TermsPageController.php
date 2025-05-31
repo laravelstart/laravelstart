@@ -14,7 +14,7 @@ class TermsPageController extends Controller
     {
         PageMeta::setTitle('Terms & Conditions');
 
-        $supportEmail = 'support@laravelstart.app';
+        $supportEmail = 'webpnk.dev@gmail.com';
         $effectiveDate = Carbon::parse('10.03.2025');
 
         return view('terms', [

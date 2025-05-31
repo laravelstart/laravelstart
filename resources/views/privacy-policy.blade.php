@@ -47,7 +47,7 @@
 **Effective Date:** {{ $effectiveDate->format('Y/m/d') }}
 
 ## 1. Introduction
-This Privacy Policy explains how we collect, use, store, and protect personal data when users sign up through our GitHub OAuth app. We are committed to complying with the General Data Protection Regulation (GDPR) and ensuring the security and privacy of user data.
+This Privacy Policy explains how we collect, use, store, and protect personal data when users sign up through our GitHub OAuth app. We are committed to complying with the General Data Protection Regulation (GDPR) and ensuring the security and privacy of user data. Laravel Start is a free and open-source service provided under the MIT License.
 
 ## 2. Data We Collect
 When users authenticate via GitHub OAuth, we collect and store the following data:

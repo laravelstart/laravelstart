@@ -47,7 +47,7 @@
 **Effective Date:** {{ $effectiveDate->format('Y/m/d') }}
 
 ## 1. Introduction
-Welcome to **Laravel Start** ("Service"), operated by Dmytro Shatrov, an individual entrepreneur registered in **Ukraine** ("we," "our," or "us"). These Terms and Conditions ("Terms") govern your use of our Service, accessible at [laravelstart.app](https://laravelstart.app). By using our Service, you agree to these Terms. If you do not agree, please do not use our Service.
+Welcome to **Laravel Start** ("Service"), operated by Dmytro Shatrov, an individual entrepreneur registered in **Ukraine** ("we," "our," or "us"). These Terms and Conditions ("Terms") govern your use of our Service, accessible at [startapp.laravel.cloud](https://startapp.laravel.cloud). By using our Service, you agree to these Terms. If you do not agree, please do not use our Service.
 
 ## 2. Service Description
 Laravel Start enables developers to connect their **GitHub** accounts and create new projects from Laravel starter kits quickly.
@@ -61,15 +61,11 @@ By using Laravel Start, you agree:
 - Not to use the Service for illegal or unauthorized activities.
 - To comply with GitHub’s terms of service when connecting your account.
 
-## 5. Subscription & Payments
-Laravel Start offers both free and subscription-based plans. Payments are processed through **Paddle**, our **Merchant of Record**. Users can manage their subscriptions via the dashboard provided by Paddle in the account menu on our website.
+## 5. Free & Open Source Service
+Laravel Start is now completely free to use and open source under the MIT License. You can view the source code and license details on our GitHub repository. There are no subscription fees or paid plans.
 
-## 6. Withdrawal Right & No Refund Policy
-If you are a consumer based in the **European Economic Area (EEA), UK, or other applicable regions**, you may have the legal right to withdraw from your subscription within **14 days of purchase** without providing any reason. To exercise this right, you must contact us at **{{ $supportEmail }}** before the withdrawal period expires.
-
-If your **subscription period has already begun** when you notify us of your wish to withdraw, we are entitled to **reduce your refund** by an amount proportionate to the period you have utilized your subscription.
-
-**No Refunds.** Except for the withdrawal right, if applicable, we do not offer a right of return (such as refunding the subscription fee or any virtual items) by reason of your dissatisfaction with the Services.
+## 6. Open Source Contributions
+We welcome contributions to the Laravel Start project. By contributing to the project, you agree that your contributions will be licensed under the same MIT License that covers the project.
 
 ## 7. Intellectual Property
 Laravel Start does not claim any intellectual property rights over the content users create using the Service.
@@ -91,9 +87,6 @@ We may update these Terms from time to time. Users will be notified of significa
 ## 12. Contact Information
 For legal inquiries or support, contact:
 📧 **{{ $supportEmail }}**
-
-Dmytro Shatrov (Individual Entrepreneur)
-📧 **dmytro@laravelstart.app**
 
 Registered in **Ukraine**
             </x-markdown>
