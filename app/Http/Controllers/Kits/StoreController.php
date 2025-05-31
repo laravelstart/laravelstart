@@ -31,10 +31,6 @@ class StoreController extends Controller
 
     public function __invoke(StoreRequest $request)
     {
-        if (!$request->user()->subscribed()) {
-            abort(404);
-        }
-
         $repository = $request->getSourceRepositoryData();
 
         try {
