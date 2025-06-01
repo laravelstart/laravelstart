@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'emails' => env('ADMIN_EMAILS'),
+    'emails' => explode(',', env('ADMIN_EMAILS', '')),
 ];
