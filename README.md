@@ -83,12 +83,7 @@ npm run build
 ### 6. Start the development server
 
 ```bash
-# Option 1: Run all services with the dev script
-composer dev
-
-# Option 2: Run services individually
 php artisan serve
-php artisan queue:listen
 npm run dev
 ```
 
